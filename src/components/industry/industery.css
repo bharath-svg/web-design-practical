@@ -1,0 +1,22 @@
+.industries-box {
+  @apply rounded-[10px] opacity-90 relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position-y: 50%;
+}
+
+.shadow-box {
+  @apply w-full h-full rounded-[10px] min-w-[200px] min-h-[250px];
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #000000 100%);
+}
+
+.industries-text {
+    @apply absolute bottom-0 left-[50%] text-white text-lg leading-5 w-full text-center;
+    transform: translate(-50%, -50%);
+  }
